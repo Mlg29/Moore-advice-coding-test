@@ -1,0 +1,49 @@
+
+.students {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4%;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.div-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button1 {
+    background: green;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.button2 {
+    background: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.list {
+    margin-top: 5%;
+}
+
+p {
+    font-weight: bold;
+    color: blue;
+}
